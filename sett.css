@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: royalblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: white;
+    height: fit-content;
+    width: fit-content;
+    padding: 50px;
+    border-radius: 60px 10px 60px 10px;
+    box-shadow: 5px 5px 10px;
+}
+
+.head{
+    color: blue;
+    font-size: 35px;
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+}
+
+button{
+    border: none;
+    outline: none;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+button:active{
+           box-shadow: inset 3px 3px 10px,  3px 3px 10px;
+}
